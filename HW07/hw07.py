@@ -1,4 +1,4 @@
-f = open("bloknapole.txt", encoding="UTF-8")
+f = open("bloknapole.txt", encoding = "UTF-8")
 words = []
 for line in f.readlines():
     line = line.split(" ")
